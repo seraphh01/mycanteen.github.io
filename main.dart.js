@@ -8400,7 +8400,7 @@ a15:function a15(){},
 a13:function a13(){},
 zi:function zi(){},
 I9:function I9(){},
-aI9(a){var s,r,q,p,o="query",n="wss://my-canteen.herokuapp.com?token="+a,m=t.N,l=t.z,k=A.a_(["autoConnect",!1,"transports",A.b(["websocket","polling"],t.s)],m,l),j=A.dp(n),i=j.gd6()+"://"+j.gfI(j)+":"+j.gkI(j),h=j.gdk(j),g=$.aiR.ae(0,i)&&$.aiR.h(0,i).d.ae(0,h),f=J.f(k.h(0,"forceNew"),!0)||J.f(k.h(0,"force new connection"),!0)||!1===k.h(0,"multiplex")||g,e=A.br("io")
+aI9(a){var s,r,q,p,o="query",n="wss://my-canteen.herokuapp.com:443?token="+a,m=t.N,l=t.z,k=A.a_(["autoConnect",!1,"transports",A.b(["websocket","polling"],t.s)],m,l),j=A.dp(n),i=j.gd6()+"://"+j.gfI(j)+":"+j.gkI(j),h=j.gdk(j),g=$.aiR.ae(0,i)&&$.aiR.h(0,i).d.ae(0,h),f=J.f(k.h(0,"forceNew"),!0)||J.f(k.h(0,"force new connection"),!0)||!1===k.h(0,"multiplex")||g,e=A.br("io")
 if(f){$.awn().aF(B.n,"ignoring socket cache for "+n,null,null)
 e.b=A.aqc(k,n)}else{s=$.aiR.h(0,i)
 if(s==null){n=A.aqc(k,n)
