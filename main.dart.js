@@ -39790,20 +39790,19 @@ o.On()
 s=s.b
 s=A.aN(p>q?"Canteen supplemented the quantity of "+s+k:"Canteen is soon running out of "+s+k,m,m,m,m,m,m)
 o.fl(A.js(A.arp("DISMISS",new A.adK()),m,m,m,B.E,s,B.aC,B.bj,m,m,m,m,m,m,m))},
-I(a,b){var s,r,q,p,o=this,n=null,m=o.a.c,l=B.nL[m.c].b
-l=l.length>0?l[0].toUpperCase()+B.b.bC(l,1).toLowerCase():""
-l=A.TG(!0,n,A.aN(m.b+" - "+l,n,n,n,n,n,n))
-m=A.fy(A.Yp(new A.adA(o),A.a(o.r,"_menu"),t.DT),n,n)
-s=A.GQ(B.el,B.my,!1,new A.adB(o))
-r=o.e
-q=r?B.nu:B.d9
-r=r?B.Nh:B.Ni
-p=t.p
-r=A.b([A.as7(q,r,new A.adC(o))],p)
-q=o.x
-if(q===o.a.c.c)r.push(B.IT)
-if(q===o.a.c.c)r.push(A.as7(B.h5,A.aN(A.d(o.ax)+" RON",n,n,n,n,n,n),new A.adD(o)))
-return A.oy(l,m,n,s,A.b([A.kA(r,B.ai,B.c3,B.az),B.IU],p))},
+I(a,b){var s,r,q,p,o,n=this,m=null,l=B.nL[n.a.c.c].b
+l=A.TG(!0,m,A.aN("Menu - "+(l.length>0?l[0].toUpperCase()+B.b.bC(l,1).toLowerCase():""),m,m,m,m,m,m))
+s=A.fy(A.Yp(new A.adA(n),A.a(n.r,"_menu"),t.DT),m,m)
+r=A.GQ(B.el,B.my,!1,new A.adB(n))
+q=n.e
+p=q?B.nu:B.d9
+q=q?B.Nh:B.Ni
+o=t.p
+q=A.b([A.as7(p,q,new A.adC(n))],o)
+p=n.x
+if(p===n.a.c.c)q.push(B.IT)
+if(p===n.a.c.c)q.push(A.as7(B.h5,A.aN(A.d(n.ax)+" RON",m,m,m,m,m,m),new A.adD(n)))
+return A.oy(l,s,m,r,A.b([A.kA(q,B.ai,B.c3,B.az),B.IU],o))},
 PP(a){var s,r,q,p=A.x(t.S,t.ai)
 for(s=a.length,r=0;r<a.length;a.length===s||(0,A.E)(a),++r){q=a[r]
 p.n(0,q.a,q)}this.as=p},
